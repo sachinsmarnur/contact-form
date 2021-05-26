@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./image1.jpg");
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  font-family: sans-serif;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
+
+.contact-title {
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+.contact-title h1 {
+  margin-top: 40px;
+  font-size: 32px;
+  line-height: 10px;
+}
+.contact-title h2 {
+  margin-top: 18px;
+  font-size: 16px;
+}
+
+form {
+  text-align: center;
+  margin-top: 30px;
+  transition: all 4s ease-in-out;
+}
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input {
+  height: 45px;
+}
+form .submit {
+  background: #534535;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover {
+  background-color: #333455;
+  cursor: pointer;
+  transition: all 1s ease;
+}
